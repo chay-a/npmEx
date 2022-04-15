@@ -1,0 +1,19 @@
+{
+  "name": "jsavance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "node main.js",
+    "today": "node today.js",
+    "weather": "node weather.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "weather-js": "^2.0.0"
+  }
+}
